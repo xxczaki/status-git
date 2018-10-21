@@ -1,0 +1,44 @@
+{
+  "name": "status-git",
+  "version": "1.0.0",
+  "description": "CLI for checking Github status",
+  "main": "cli.js",
+  "bin": {
+    "status-git": "cli.js"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxczaki/status-git.git"
+  },
+  "keywords": [
+    "status-git",
+    "cli",
+    "app",
+    "github",
+    "status",
+    "api",
+    "github-status",
+    "node",
+    "npm",
+    "package"
+  ],
+  "author": "Antoni Kepinski <a@kepinski.me> (https://kepinski.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxczaki/status-git/issues"
+  },
+  "homepage": "https://github.com/xxczaki/status-git#readme",
+  "dependencies": {
+    "got": "^9.2.2",
+    "meow": "^5.0.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^1.0.0",
+    "xo": "^0.23.0"
+  }
+}
