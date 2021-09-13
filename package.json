@@ -34,7 +34,7 @@
   "dependencies": {
     "got": "^9.2.2",
     "meow": "^5.0.0",
-    "ora": "^3.0.0"
+    "ora": "^6.0.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
